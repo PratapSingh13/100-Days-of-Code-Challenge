@@ -10,7 +10,6 @@ int main()
         sum=sum+mark[i];
     }
     avg=sum/5;
-    printf("It is a percentage");
     if(avg>100)
     {
         printf("First Division");
@@ -27,6 +26,4 @@ int main()
     {
         printf("Failed");
     }
-
-    
 }
